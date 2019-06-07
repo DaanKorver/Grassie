@@ -1,4 +1,4 @@
 ## Grassie
 
-Project Name: 🌱Grassie
+Project Name: 🌱Grassie  
 Framework: Vue.js
