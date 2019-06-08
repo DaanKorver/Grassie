@@ -3,6 +3,7 @@
         <div>
             <ShowcaseItem ShowcaseProduct="GrassRoll"
             ShowcaseDesc="Dit is de bescrhijving van product nummer 1"
+            ShowcaseImg="../../assets/grass-product-1.png"
             />
             </div>
         <div>
@@ -42,6 +43,7 @@ export default {
         width: calc(90vw / 3);
         position: relative;
         margin: 0 auto;
+        padding: 5% 0;
     }
 
     @media (max-width: 970px) {

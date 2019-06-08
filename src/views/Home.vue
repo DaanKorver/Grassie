@@ -3,6 +3,7 @@
     <HomeHeader />
     <HomeShowcase />
     <HomeService />
+    <Footer />
   </div>
 </template>
 
@@ -11,13 +12,15 @@
 import HomeHeader from '../components/Home/HomeHeader.vue'
 import HomeShowcase from '../components/Home/HomeShowcase.vue'
 import HomeService from '../components/Home/HomeService.vue'
+import Footer from '../components/Footer'
 
 export default {
   name: 'home',
   components: {
     HomeHeader,
     HomeShowcase,
-    HomeService
+    HomeService,
+    Footer
   }
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="wrapper">
         <div class="item-image"></div>
         <div class="item-content">
             <h2>{{ ShowcaseProduct }}</h2>
@@ -14,7 +14,7 @@ export default {
     name: "ShowcaseItem",
     props: {
         ShowcaseProduct: String,
-        ShowcaseDesc: String
+        ShowcaseDesc: String,
     }
 }
 </script>
@@ -28,20 +28,17 @@ export default {
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
-        padding: 5% 0;
     }
 
-    div:first-child {
-        border-bottom: 1.5px solid #555;
-        border-left: 1.5px solid #555;
-        border-right: 1.5px solid #555;
+    .wrapper {
+       border: 1.5px solid #555;
     }
 
     .item-image {
         width: 100%;
         height: 60%;
         position: relative;
-        background: blue;
+        background: seagreen;
     }
 
     .item-content {
@@ -67,6 +64,14 @@ export default {
         border: 2px solid #98ff98;
         color: black;
         font-size: 18px;
+    }
+
+    @media (max-width: 550px) {
+        div:first-child {
+            border: none;
+            border-bottom: 1.5px solid #555;
+            border-top: 1.5px solid #555;
+        }
     }
 
     

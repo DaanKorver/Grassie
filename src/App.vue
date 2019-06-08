@@ -37,15 +37,9 @@ body {
   width: 100vw;
   height: auto;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  color: #2c3e50;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 
 .nav {
@@ -127,5 +121,27 @@ body {
 .fade-leave-active {
   opacity: 0;
   transform: translateX(5vw);
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 2px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #2c3e50;;
+  border: 0px none #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #333;
+}
+::-webkit-scrollbar-track {
+  background: white;
+  border: 0px none #ffffff;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
 }
 </style>
