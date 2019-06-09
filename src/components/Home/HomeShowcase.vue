@@ -3,7 +3,7 @@
         <div>
             <ShowcaseItem ShowcaseProduct="GrassRoll"
             ShowcaseDesc="Dit is de bescrhijving van product nummer 1"
-            ShowcaseImg="../../assets/grass-product-1.png"
+            ShowcaseImgSrc="green"
             />
             </div>
         <div>

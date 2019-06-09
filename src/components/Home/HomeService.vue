@@ -5,7 +5,7 @@
         </div>
         <div class="container-right">
             <h1>Wij leggen het gras!</h1>
-            <h2>Zelf niet zo technisch?<br>Onze werknemers staan klaar voor u<br> om het gras te leggen!</h2>
+            <h2>Zelf niet zo handig <br>of geen groene vingers?<br>Onze werknemers staan klaar voor u<br> om het gras te leggen!</h2>
         </div>
     </div>
 </template>

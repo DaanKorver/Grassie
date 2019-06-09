@@ -7,10 +7,10 @@
         <router-link to="/">Home</router-link>
       </div>
         <div class="nav-items-item">
-        <router-link to="/about">About</router-link>
+        <router-link to="/products">Products</router-link>
       </div>
       <div class="nav-items-item">
-        <router-link to="/products">Products</router-link>
+        <router-link to="/about">About</router-link>
       </div>
       <div class="nav-items-item">
         <router-link to="/contact">Contact</router-link>

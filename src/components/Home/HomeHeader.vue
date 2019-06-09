@@ -3,7 +3,7 @@
         <div class="text">
             <h2 class="text-ani hidden-left">U DOET DE WAS</h2>
             <h1 class="text-ani hidden-right">GRASSIE</h1>
-            <h2 class="text-ani hidden-left">WIJ DOEN HET GRASS</h2>
+            <h2 class="text-ani hidden-left">WIJ DOEN HET GRAS</h2>
         </div>
     </div>
 </template>
@@ -37,6 +37,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        background-attachment: fixed;
     }
 
     .text {
@@ -64,6 +65,7 @@
 
     h1 {
         font-size: calc(30px + 3vw);
+        color: #ffff66;
     }
 
     h2 {

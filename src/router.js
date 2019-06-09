@@ -8,7 +8,10 @@ import Contact from './views/Contact.vue'
 Vue.use(Router)
 
 export default new Router({
-  base: '/app',
+  scrollBehavior() {
+    return { x: 0, y: 0 };
+  },
+  base: '/',
   mode: 'history',
   routes: [
     {
@@ -30,6 +33,9 @@ export default new Router({
       path: '/contact',
       name: 'contact',
       component: Contact
+    },
+    {
+      path: '*', redirect: '/'
     }
   ]
 })

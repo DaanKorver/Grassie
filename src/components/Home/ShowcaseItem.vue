@@ -15,6 +15,7 @@ export default {
     props: {
         ShowcaseProduct: String,
         ShowcaseDesc: String,
+        ShowcaseImgSrc: String
     }
 }
 </script>
@@ -38,7 +39,7 @@ export default {
         width: 100%;
         height: 60%;
         position: relative;
-        background: seagreen;
+       background: seagreen;
     }
 
     .item-content {
@@ -57,13 +58,14 @@ export default {
     }
 
     .item-content button {
-        width: 80%;
+         width: 80%;
         height: 45px;
         border: none;
-        background: transparent;
-        border: 2px solid #98ff98;
-        color: black;
+        background: #98ff98;
         font-size: 18px;
+        font-weight: bold;
+        color: #2c3e50;
+        border-radius: 5px;
     }
 
     @media (max-width: 550px) {
