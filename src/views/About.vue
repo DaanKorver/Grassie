@@ -1,5 +1,18 @@
 <template>
   <div class="page">
-    <h1>This is an about page</h1>
+    <AboutInfo />
+    <Footer />
   </div>
 </template>
+
+<script>
+import AboutInfo from '../components/About/AboutInfo'
+import Footer from '../components/Footer'
+export default {
+  name: "about",
+  components: {
+    AboutInfo,
+    Footer
+  }
+}
+</script>
