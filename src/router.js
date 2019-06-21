@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import Products from './views/Products.vue'
 import About from './views/About.vue'
 import Contact from './views/Contact.vue'
+import Bestellen from './views/Bestellen.vue'
 
 Vue.use(Router)
 
@@ -11,7 +12,7 @@ export default new Router({
   scrollBehavior() {
     return { x: 0, y: 0 };
   },
-  base: '/',
+  base: 'webshopbox',
   mode: 'history',
   routes: [
     {
@@ -33,6 +34,11 @@ export default new Router({
       path: '/contact',
       name: 'contact',
       component: Contact
+    },
+    {
+      path: '/products/bestellen',
+      name: 'bestellen',
+      component: Bestellen
     },
     {
       path: '*', redirect: '/'

@@ -78,6 +78,7 @@ export default {
         position: relative;
         display: inline-block;
         padding: 10px;
+        min-height: 200px;
     }
     .col h1 {
         font-size: 25px;

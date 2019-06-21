@@ -26,6 +26,7 @@ export default {
 .wrapper {
     width: 100%;
     height: auto;
+    min-height: 80vh;
     position: relative;
     display: grid;
     grid-template-columns: .7fr 1fr;

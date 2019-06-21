@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
-        <div class="item-image"></div>
-        <div class="item-content">
+        <div class="item-image"  :class="classname"></div>
+        <div class="item-content">           
             <h2>{{ ShowcaseProduct }}</h2>
             <p>{{ ShowcaseDesc }}</p>
             <button>Bestel</button>
@@ -12,10 +12,24 @@
 <script>
 export default {
     name: "ShowcaseItem",
-    props: {
-        ShowcaseProduct: String,
-        ShowcaseDesc: String,
-        ShowcaseImgSrc: String
+    // props: {
+    //     ShowcaseProduct: String,
+    //     ShowcaseDesc: String,
+    //     ShowcaseImgSrc: String
+    // },
+    props: ['ShowcaseProduct','ShowcaseDesc','classname'],
+    computed: {
+        style(){
+            return {
+                backgroundImage: `url(${require(this.ShowcaseImgSrc)})`
+            }
+        }
+    },
+    methods: {
+        getImg() {
+            console.log(this.style)
+            return this.ShowcaseImgSrc
+        }
     }
 }
 </script>
@@ -29,17 +43,39 @@ export default {
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
+        padding-top: 10px;
     }
 
     .wrapper {
-       border: 1.5px solid #555;
+       background-color: #f7f7f7;
+       box-shadow: 0px 3px 5px 3px rgba(0,0,0,.5);
+    }
+
+    .img-1{
+        background-image: url("../../assets/grass-product-1.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center bottom;
+    }
+    .img-2{
+      background-image: url("../../assets/grass-product-2.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      background-position: center bottom;
+    }
+    .img-3{
+      background-image: url("../../assets/grass-product-3.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      background-position: center bottom;
     }
 
     .item-image {
         width: 100%;
         height: 60%;
         position: relative;
-       background: seagreen;
     }
 
     .item-content {
@@ -69,10 +105,8 @@ export default {
     }
 
     @media (max-width: 550px) {
-        div:first-child {
-            border: none;
-            border-bottom: 1.5px solid #555;
-            border-top: 1.5px solid #555;
+        .wrapper {
+            box-shadow: none;
         }
     }
 

@@ -1,5 +1,16 @@
 <template>
   <div class="page">
-    <h1>Contact</h1>
+    <ContactInfo />
   </div>
 </template>
+
+<script>
+import ContactInfo from "../components/Contact/ContactInfo";
+
+export default {
+  name: "contact",
+  components: {
+    ContactInfo
+  }
+}
+</script>

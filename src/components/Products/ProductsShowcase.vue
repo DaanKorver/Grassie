@@ -3,21 +3,25 @@
         <div>
             <ProductsItem itemTitle="Title 1"
             itemDesc="This is a short description for the product that in this container"
+            classname="img-1"
             />
         </div>
         <div>
             <ProductsItem itemTitle="Title 2"
             itemDesc="This is a short description for the product that in this container"
+            classname="img-2"
             />
         </div>
         <div>
             <ProductsItem itemTitle="Title 3"
             itemDesc="This is a short description for the product that in this container"
+            classname="img-3"
             />
         </div>
         <div>
             <ProductsItem itemTitle="Title 4"
             itemDesc="This is a short description for the product that in this container"
+            classname="img-4"
             />
         </div>
     </div>
@@ -30,7 +34,7 @@ export default {
     name: "ProductsShowcase",
     components: {
         ProductsItem
-    }
+    },
 }
 </script>
 

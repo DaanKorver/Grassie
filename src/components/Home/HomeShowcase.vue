@@ -3,17 +3,19 @@
         <div>
             <ShowcaseItem ShowcaseProduct="GrassRoll"
             ShowcaseDesc="Dit is de bescrhijving van product nummer 1"
-            ShowcaseImgSrc="green"
+            classname="img-1"
             />
             </div>
         <div>
             <ShowcaseItem ShowcaseProduct="GrassRoll2"
             ShowcaseDesc="Dit is de bescrhijving van product nummer 2"
+            classname="img-2"
             />
         </div>
         <div>
             <ShowcaseItem ShowcaseProduct="GrassRoll3"
             ShowcaseDesc="Dit is de bescrhijving van product nummer 3"
+            classname="img-3"
             />
             </div>
     </div>

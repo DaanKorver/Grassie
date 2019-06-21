@@ -1,28 +1,23 @@
 <template>
     <div class="home-header">
         <div class="text">
-            <h2 class="text-ani hidden-left">U DOET DE WAS</h2>
-            <h1 class="text-ani hidden-right">GRASSIE</h1>
-            <h2 class="text-ani hidden-left">WIJ DOEN HET GRAS</h2>
+            <h2 class="hidden-left hidden-left1">U DOET DE WAS</h2>
+            <h1 class="hidden-right">GRASSIE</h1>
+            <h2 class="hidden-left hidden-left2">WIJ DOEN HET GRAS</h2>
         </div>
     </div>
 </template>
 
 <script>
+import {TweenMax, Power2, TimelineLite} from "gsap/TweenMax";
     export default {
         name: 'HomeHeader',
         mounted() {
-        let texts = document.getElementsByClassName("text-ani");
-            
-        setTimeout(()=>{
-            texts[0].classList.remove("hidden-left");
-            setTimeout(()=>{
-                texts[1].classList.remove("hidden-right");
-                setTimeout(()=>{
-                    texts[2].classList.remove("hidden-left");
-                    }, 300);
-                }, 300);
-            },300);
+            var tl = new TimelineMax();
+            tl.addLabel("start")
+            .to(".hidden-left1", .6, {opacity: 1, x: 0, ease:Power2.easeOut},"start")
+            .to(".hidden-right", .6, {opacity: 1, x: 0, ease:Power2.easeOut, delay: .3},"start")
+            .to(".hidden-left2", .6, {opacity: 1, x: 0, ease:Power2.easeOut, delay: .6},"start")
         }
     }
 </script>
@@ -82,4 +77,13 @@
         transform: translateX(50%);
     }
 
+    @media (max-width: 345px) {
+        h1 {
+            font-size: calc(20px + 3vw);
+        }
+
+        h2 {
+            font-size: calc(20px + 1vw);
+        }
+    }
 </style>
