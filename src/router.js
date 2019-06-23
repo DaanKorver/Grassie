@@ -36,9 +36,10 @@ export default new Router({
       component: Contact
     },
     {
-      path: '/products/bestellen',
+      path: '/products/bestellen/:itemName',
       name: 'bestellen',
-      component: Bestellen
+      component: Bestellen,
+
     },
     {
       path: '*', redirect: '/'

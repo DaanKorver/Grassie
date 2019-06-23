@@ -4,6 +4,7 @@
             <ProductsItem itemTitle="Title 1"
             itemDesc="This is a short description for the product that in this container"
             classname="img-1"
+            item="Le Grass"
             />
         </div>
         <div>

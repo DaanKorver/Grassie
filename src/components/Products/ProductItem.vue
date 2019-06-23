@@ -3,7 +3,7 @@
         <div class="item-image" :class="classname" ></div>
         <h1>{{itemTitle}}</h1>
         <p>{{itemDesc}}</p>
-        <button>Bestel</button>
+        <router-link :to="{ name: 'bestellen', params: { itemName: item }}">Bestel</router-link>
     </div>
 </template>
 
@@ -13,7 +13,8 @@ export default {
     props: {
         itemTitle: String,
         itemDesc: String,
-        classname: String
+        classname: String,
+        item: String
     }
 }
 </script>
@@ -35,7 +36,7 @@ export default {
         width: 95%;
         height: 50%;
     }
-    button {
+    a {
         width: 80%;
         height: 45px;
         border: none;
@@ -44,6 +45,10 @@ export default {
         font-weight: bold;
         color: #2c3e50;
         border-radius: 5px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .img-1{
         background-image: url("../../assets/grass-product-1.png");

@@ -19,17 +19,8 @@ export default {
     // },
     props: ['ShowcaseProduct','ShowcaseDesc','classname'],
     computed: {
-        style(){
-            return {
-                backgroundImage: `url(${require(this.ShowcaseImgSrc)})`
-            }
-        }
     },
     methods: {
-        getImg() {
-            console.log(this.style)
-            return this.ShowcaseImgSrc
-        }
     }
 }
 </script>
