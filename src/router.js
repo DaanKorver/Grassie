@@ -15,12 +15,6 @@ export default new Router({
   },
   base: 'webshopbox',
   mode: 'history',
-  meta: {
-    title: "Grassie - Webshop voor Gras en alles wat draait om gras",
-    metaTags: [
-      {name: 'description', content: 'De webshop voor gras. Grassie is de webshop voor gras. Wij verzekeren u dat wij het beste kwaliteit van gras leveren.'}
-    ]
-  },
   routes: [
     {
       path: '/',
