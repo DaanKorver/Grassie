@@ -1,20 +1,23 @@
 <template>
     <div class="home-showcase">
         <div>
-            <ShowcaseItem ShowcaseProduct="GrassRoll"
-            ShowcaseDesc="Dit is de bescrhijving van product nummer 1"
+            <ShowcaseItem ShowcaseProduct="Le grass"
+            ShowcaseDesc="Aahhhh, Le grass, het perfecte grass voor de franse achtertuin"
             classname="img-1"
+            item="Le grass"
             />
             </div>
         <div>
-            <ShowcaseItem ShowcaseProduct="GrassRoll2"
-            ShowcaseDesc="Dit is de bescrhijving van product nummer 2"
+            <ShowcaseItem ShowcaseProduct="Grais"
             classname="img-2"
+            ShowcaseDesc="Grais, rare naam, raar gras"
+            item="Grais"
             />
         </div>
         <div>
-            <ShowcaseItem ShowcaseProduct="GrassRoll3"
-            ShowcaseDesc="Dit is de bescrhijving van product nummer 3"
+            <ShowcaseItem ShowcaseProduct="Es Grassos"
+            ShowcaseDesc="Si, Es Grassos beautifull. Voor de achtertuin die wel wat pittigs kan gebruiken"
+            item="Es Grassos"
             classname="img-3"
             />
             </div>

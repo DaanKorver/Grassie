@@ -4,7 +4,7 @@
         <div class="item-content">           
             <h2>{{ ShowcaseProduct }}</h2>
             <p>{{ ShowcaseDesc }}</p>
-            <button>Bestel</button>
+            <router-link :to="{ name: 'bestellen', params: { itemName: item }}">Bestel</router-link>
         </div>
     </div>
 </template>
@@ -17,7 +17,7 @@ export default {
     //     ShowcaseDesc: String,
     //     ShowcaseImgSrc: String
     // },
-    props: ['ShowcaseProduct','ShowcaseDesc','classname'],
+    props: ['ShowcaseProduct','ShowcaseDesc','classname', 'item'],
     computed: {
     },
     methods: {
@@ -84,7 +84,7 @@ export default {
         font-size: 18px;
     }
 
-    .item-content button {
+    .item-content a {
          width: 80%;
         height: 45px;
         border: none;
@@ -93,6 +93,10 @@ export default {
         font-weight: bold;
         color: #2c3e50;
         border-radius: 5px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     @media (max-width: 550px) {

@@ -25,7 +25,6 @@ export default {
         height: 100%;
         padding: 15px;
         box-sizing: border-box;
-        background-color: #f7f7f7;
         text-align: center;
         display: flex;
         justify-content: space-around;

@@ -5,6 +5,7 @@ import Products from './views/Products.vue'
 import About from './views/About.vue'
 import Contact from './views/Contact.vue'
 import Bestellen from './views/Bestellen.vue'
+import Geslaagd from './views/Geslaagd.vue'
 
 Vue.use(Router)
 
@@ -14,6 +15,12 @@ export default new Router({
   },
   base: 'webshopbox',
   mode: 'history',
+  meta: {
+    title: "Grassie - Webshop voor Gras en alles wat draait om gras",
+    metaTags: [
+      {name: 'description', content: 'De webshop voor gras. Grassie is de webshop voor gras. Wij verzekeren u dat wij het beste kwaliteit van gras leveren.'}
+    ]
+  },
   routes: [
     {
       path: '/',
@@ -39,7 +46,11 @@ export default new Router({
       path: '/products/bestellen/:itemName',
       name: 'bestellen',
       component: Bestellen,
-
+    },
+    {
+      path: '/products/bestellen/geslaagd',
+      name: 'geslaagd',
+      component: Geslaagd
     },
     {
       path: '*', redirect: '/'
