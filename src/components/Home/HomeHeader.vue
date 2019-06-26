@@ -77,7 +77,7 @@ import {TweenMax, Power2, TimelineLite} from "gsap/TweenMax";
         transform: translateX(50%);
     }
 
-    @media (max-width: 345px) {
+    @media (max-width: 435px) {
         h1 {
             font-size: calc(20px + 3vw);
         }

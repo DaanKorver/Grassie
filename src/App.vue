@@ -4,16 +4,16 @@
     <div class="nav-logo"></div>
     <div class="nav-items">
       <div class="nav-items-item">
-        <router-link to="/">Home</router-link>
+        <router-link to="/" title="Home">Home</router-link>
       </div>
         <div class="nav-items-item">
-        <router-link to="/products">Products</router-link>
+        <router-link to="/products" title="Products">Products</router-link>
       </div>
       <div class="nav-items-item">
-        <router-link to="/about">About</router-link>
+        <router-link to="/about" title="About">About</router-link>
       </div>
       <div class="nav-items-item">
-        <router-link to="/contact">Contact</router-link>
+        <router-link to="/contact" title="Contact">Contact</router-link>
       </div>
     </div>
   </div>
