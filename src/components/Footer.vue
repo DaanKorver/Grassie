@@ -5,32 +5,35 @@
         </div>
         <div class="footer-container">
             <div class="col">
-                <h1>Subject 1</h1>
+                <h1>Navigatie</h1>
                 <br>
-                <p class="link">Link 1</p>
-                <p class="link">Link 2</p>
-                <p class="link">Link 3</p>
-                <p class="link">Link 4</p>
+                <router-link to="/" title="Home" class="link">Home</router-link>
+                <router-link to="/products" title="Contact" class="link">Products</router-link>
+                <router-link to="/about" title="About" class="link">About</router-link>
+                <router-link to="/contact" title="Contact" class="link">Contact</router-link>
             </div>
             <div class="col">
-                <h1>Subject 2</h1>
+                <h1>Grassie</h1>
                 <br>
-                <p class="link">Link 1</p>
-                <p class="link">Link 2</p>
-                <p class="link">Link 3</p>
-                <p class="link">Link 4</p>
+                <p class="link">Services</p>
+                <p class="link">FAQ</p>
+                <p class="link">Privacy Policy</p>
+                <p class="link">Terms Of Service</p>
             </div>
             <div class="col">
-                <h1>Subject 3</h1>
+                <h1>Landen</h1>
                 <br>
-                <p class="link">Link 1</p>
-                <p class="link">Link 2</p>
-                <p class="link">Link 3</p>
-                <p class="link">Link 4</p>
+                <p class="link">Nederland</p>
+                <p class="link">Belgie</p>
+                <p class="link">Luxenburg</p>
+                <p class="link">Duitsland</p>
             </div>
             <div class="col">
-                <h1>Subject 4</h1>
+                <h1>Social Media 4</h1>
                 <br>
+                <p class="link">Facebook</p>
+                <p class="link">Instagram</p>
+                <p class="link">Twitter</p>
                 <p class="copyright">Copyright © 2019, All rights reserved</p>
             </div>
         </div>
@@ -38,6 +41,8 @@
 </template>
 
 <script>
+import {TweenMax, Power2, TimelineLite} from "gsap/TweenMax";
+
 export default {
     name: "Footer"
 }
@@ -87,6 +92,9 @@ export default {
         font-size: 20px;
         line-height: 35px;
         margin-left: 7px;
+        display: block;
+        text-decoration: none;
+        color: #2c3e50;
     }
     .copyright {
         position: absolute;
