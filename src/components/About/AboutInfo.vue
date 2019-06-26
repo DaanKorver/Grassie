@@ -1,14 +1,20 @@
 <template>
     <div class="wrapper">
         <div class="container container-left">
-            <h1>First Title</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam veniam accusantium delectus error doloremque quo aspernatur modi est quod ut laudantium, suscipit ullam voluptates qui provident dicta eaque repudiandae. Impedit libero odio possimus consequuntur fuga enim rerum dolore, consequatur maiores!</p>
+            <h1>Wij zijn wij?</h1>
+            <p>Grassie is een bedrijf opgezet door de gebroeders Kuil. Het bedrijf is ontstaan in de jaren ’60 nadat er door lange droogte een tekort aan gras was. De gebroeders vonden een zeer efficiënte manier om gras te produceren zonder dat hier een grote mate van irrigatie toegepast diende te worden. Dit zorgde ervoor dat Grassie is gegroeid tot de multinational die het vandaag de dag is.</p>
             
-            <h1>Second Title</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam veniam accusantium delectus error doloremque quo aspernatur modi est quod ut laudantium, suscipit ullam voluptates qui provident dicta eaque repudiandae. Impedit libero odio possimus consequuntur fuga enim rerum dolore, consequatur maiores!</p>
+            <h1>Oorsprong van het gras</h1>
+            <p>Het gras wordt gekweekt in speciale kassen die voorzien zijn van verlichting met een hoge mate van UV straling. Doordat het gras continue wordt voorzien van belichting van de hoogste kwaliteit, kunnen wij u een product leveren waar u nog jaren van kunt genieten. De zaadjes waaruit het gras kiemt zijn afkomstig van een graslijn uit Azië genoemd Yeetes Grasses. Yeetes Grasses is zaad van het hoogste kwaliteit welke tevens wordt toegepast om de golfbanen voor de PGA golftour te voorzien van gras. </p>
 
-            <h1>Third Title</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam veniam accusantium delectus error doloremque quo aspernatur modi est quod ut laudantium, suscipit ullam voluptates qui provident dicta eaque repudiandae. Impedit libero odio possimus consequuntur fuga enim rerum dolore, consequatur maiores!</p>
+            <h1>Grassoorten</h1>
+            <p>Grassie kan u voorzien van diverse soorten gras afhankelijk van het doeleinde. Wij bieden voornamelijk de volgende grassoorten aan:
+- Sportvelden gras
+- Golfbaan gras
+- Gras voor recreatieve doeleinde voor particulieren
+- Festivalgras ( speciaal gras welke resistent is tegen massas dansende mensen en podia )
+- Gras t.b.v. veehouderij / weilandgras
+Tevens zijn wij in het bezit van een graslab waarin wij elke soort gras voor u kunnen kruizen voor de gewenste doeleinde. <br><br>Mocht u op zoek zijn naar kunstgras, laat u dan informeren naar onze vervanger voor kusntgras om dit milieuvervuilende product uit de wereld te helpen!</p>
         </div>
         <div class="container container-right">
             <div class="about-image"></div>
