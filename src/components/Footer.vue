@@ -8,8 +8,8 @@
                 <h1>Navigatie</h1>
                 <br>
                 <router-link to="/" title="Home" class="link">Home</router-link>
-                <router-link to="/products" title="Contact" class="link">Products</router-link>
-                <router-link to="/about" title="About" class="link">About</router-link>
+                <router-link to="/products" title="Producten" class="link">Producten</router-link>
+                <router-link to="/about" title="Over ons" class="link">Over ons</router-link>
                 <router-link to="/contact" title="Contact" class="link">Contact</router-link>
             </div>
             <div class="col">
@@ -18,7 +18,7 @@
                 <p class="link">Services</p>
                 <p class="link">FAQ</p>
                 <p class="link">Privacy Policy</p>
-                <p class="link">Terms Of Service</p>
+                <p class="link">Servicevoorwaarden</p>
             </div>
             <div class="col">
                 <h1>Landen</h1>
@@ -29,7 +29,7 @@
                 <p class="link">Duitsland</p>
             </div>
             <div class="col">
-                <h1>Social Media 4</h1>
+                <h1>Social Media</h1>
                 <br>
                 <p class="link">Facebook</p>
                 <p class="link">Instagram</p>
