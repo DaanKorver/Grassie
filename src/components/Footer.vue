@@ -34,7 +34,7 @@
                 <p class="link">Facebook</p>
                 <p class="link">Instagram</p>
                 <p class="link">Twitter</p>
-                <p class="copyright">Copyright © 2019, All rights reserved</p>
+                <p class="copyright">Copyright © 2019, Alle rechten voorbehouden</p>
             </div>
         </div>
     </div>

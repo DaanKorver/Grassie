@@ -36,12 +36,12 @@
                 <hr>
                 <label for="squarem">Aantal m<sup>2</sup></label>
                 <input id="inputPrice" type="number" v-model="textInput" required/>
-                <p>1.99 per m<sup>2</sup></p>
+                <p>&euro;1.99 per m<sup>2</sup></p>
                 <hr>
                 <h1>Totaal</h1>
-                <p>x - {{itemName}} {{textInput}} m<sup>2</sup> - ${{textInput * price}}</p>
-                <p>x - Verzendkosten - $ 6.95</p>
-                <h3>Totaal: {{(textInput * price) + 6.95}}</h3>
+                <p>x - {{itemName}} {{textInput}} m<sup>2</sup> - 	&euro; {{textInput * price}}</p>
+                <p>x - Verzendkosten - 	&euro; 6.95</p>
+                <h3>Totaal: 	&euro; {{(textInput * price) + 6.95}}</h3>
                 <hr>
                 <input type="submit" @click.stop.prevent="submit()">
             </form>
